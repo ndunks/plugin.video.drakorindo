@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.addon.id" name="drakorindo" version="0.0.1" provider-name="barasoft">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Watch on drakorindo.co</summary>
+    <description lang="en_gb">Watch korean drama on drakorindo.co</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <summary lang="id_ID">Nonton di drakorindo.co</summary>
+    <description lang="id_ID">Nonto drama korea di drakorindo</description>
+    <disclaimer lang="id_ID"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <news>
+      v0.0.1
+      - Started development 28 Jan 2018
+    </news>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <!-- <fanart></fanart>
+        <screenshot></screenshot> -->
+    </assets>
+  </extension>
+</addon>
